@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  
+}
+body{
+    background: rgb(195 188 188);
+}
+table{
+    
+    margin: 0 auto; 
+    font-size: large; 
+    border: 2px solid black;
+    
+}
+td { 
+    
+    border: 2px solid black; 
+} 
+
+ 
+th,td { 
+    font-weight: bold; 
+    border: 2px solid black; 
+    padding: 10px; 
+    text-align: center; 
+    font-family: 'Varela Round', sans-serif;
+} 
+
+ 
+.row{
+    margin: 10px;
+}
+.btn-dark:hover{
+    background: red;
+}
+.btn-dark a {
+ 
+    text-decoration: none;
+   color: #fff;    
+   }
+   
+   #navbar li a:hover{
+
+    color: rgba(252, 0, 0, 0.884);
+}
+.navbar-brand{
+    
+    font-family: 'Varela Round', sans-serif;
+    font-size: 130%;
+}
+#logo{
+    max-height: 30px;
+    padding-left: 10px;
+    padding-right: 23px;
+}
+.navbar-nav{
+   padding-right: 20px;
+    
+}
+.nav-item{
+    padding: 0px 20px;
+    font-family: 'Varela Round', sans-serif;
+}
+.row h1{
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px auto;
+}
+
+.container p{
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#foot hr{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}

@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.header{
+    height: 100vh;
+    width: 100%;
+    background-image: url("image/back.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+body{
+    background: rgb(195 188 188);
+}
+.navbar-brand{
+    
+    font-family: 'Varela Round', sans-serif;
+    font-size: 130%;
+}
+
+#logo{
+    max-height: 30px;
+    padding-left: 10px;
+    padding-right: 23px;
+}
+.navbar-nav{
+   padding-right: 20px;
+   text-align: right;
+    flex: 1;
+}
+.nav-item{
+    padding: 0px 20px;
+    font-family: 'Varela Round', sans-serif;
+    display: right;
+}
+#navbar li a:hover{
+
+    color: rgba(252, 0, 97, 0.884);
+}
+.row{
+    display: flex;
+    flex-direction: column;
+}
+#ImgDiv{
+    float: left;
+     max-height: 100%;
+     max-width: 40%;
+}
+ #buttons {
+    
+    max-width: 25%;
+    float: left;
+    margin-top: auto;
+    margin-top: 3%;
+    margin-right: 10px;
+    padding-left: 90px;
+    text-transform: uppercase;
+   
+}
+
+.btn-danger {
+ 
+    text-transform: uppercase;
+    color: white;
+     background-color: rgb(17, 16, 16);
+    border-color: #000000;
+    
+}
+
+
+
+#foot{
+    position:static;
+    margin-top:45%;
+    width:100%;
+    height: 1em;
+    background-color: rgb(158, 76, 76);
+}
+.container p{
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#foot hr{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.btn-danger a {
+ 
+ text-decoration: none;
+color: #fff;   
+font-family: 'Varela Round', sans-serif; 
+}
+
+
+.facilities-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: center;
+}
+.facilities-col img{
+    width: 40%;
+    border-radius: 10px;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}    
+    
+
+@media screen and (max-width: 500px){
+    
+    .navbar{
+        max-width: 100%;
+
+    }
+    .navbar-brand {
+        font-family: 'Varela Round', sans-serif;
+        font-size: 60%;
+    }
+    #logo{
+        max-height: 20px;
+        padding-left: 5px;
+        padding-right: 15px;
+    }
+    .img-fluid{
+       display:none;
+        position:absolute;
+       max-height:70% 
+       
+    }
+    #buttons{
+        display:block;
+        position: relative;
+        margin: 30px ;
+        float: left;
+        
+    }
+    .content{
+        display:flex;
+        flex-direction:column-reverse;
+    }
+    #foot{
+   
+    
+    position: relative;
+    bottom:0;
+    width:100%;
+    margin-top: 28%;
+     
+    }
+   
+    .container p{
+    
+      text-align: center;
+    }
+
+
+}
+
